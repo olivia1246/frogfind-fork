@@ -77,16 +77,16 @@ function clean_str($str) {
     <?php echo $final_result_html ?>
     
 <?php } else { // no search query, so show new search ?>
-    <br><br><center><h1><font size=7><font color="#008000">Frog</font>Find!</font></h1></center>
+    <br><br><center><h1><font size=7><font color="#800080">Frog</font>Find!</font></h1></center>
     <center><h3>The Search Engine for Vintage Computers</h3></center>
     <br><br>
     <center>
     <form action="/" method="get">
-    Leap to: <input type="text" size="30" name="q"><br>
-    <input type="submit" value="Ribbbit!">
+    Search: <input type="text" size="30" name="q"><br>
+    <input type="submit" value="Go!">
     </center>
     <br><br><br>
-    <small><center>Built by <b><a href="https://youtube.com/ActionRetro">Action Retro</a></b> on YouTube | <a href="about.php">Why build such a thing?</a></center><br>
+    <small><center>Built by <b><a href="https://youtube.com/ActionRetro">Action Retro</a> and fork by <a href="https://github.com/olivia1246">olivia1246</a></b> on YouTube | <a href="about.php">Why build such a thing?</a></center><br>
     <small><center>Powered by DuckDuckGo</center></small>
 </form>
 </form>
