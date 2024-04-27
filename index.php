@@ -67,8 +67,8 @@ function clean_str($str) {
 <?php if($show_results) { // there's a search query in q, so show search results ?>
 
     <form action="/" method="get">
-    <a href="/"><font size=6 color="#008000">Frog</font><font size=6 color="#000000">Find!</font></a> Leap again: <input type="text" size="30" name="q" value="<?php echo urldecode($query) ?>">
-    <input type="submit" value="Ribbbit!">
+    <a href="/"><font size=6 color="#008000">Frog</font><font size=6 color="#000000">Find!</font></a> Search: <input type="text" size="30" name="q" value="<?php echo urldecode($query) ?>">
+    <input type="submit" value="Go!">
     </form>
     <hr>
     <br>
@@ -78,7 +78,7 @@ function clean_str($str) {
     
 <?php } else { // no search query, so show new search ?>
     <br><br><center><h1><font size=7><font color="#800080">Frog</font>Find!</font></h1></center>
-    <center><h3>The Search Engine for Vintage Computers</h3></center>
+    <center><h3>Simple search engine.</h3></center>
     <br><br>
     <center>
     <form action="/" method="get">
